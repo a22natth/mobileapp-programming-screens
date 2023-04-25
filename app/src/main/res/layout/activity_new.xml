@@ -8,7 +8,7 @@
     tools:context=".NewActivity">
 
   <TextView
-      android:id="@+id/textView2"
+      android:id="@+id/textViewName"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="YAY! Second activity showing..."
@@ -17,4 +17,16 @@
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textViewYear"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="TextView"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textViewName" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

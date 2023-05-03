@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, NewActivity.class);
                 intent.putExtra("name", "Web app");
-                intent.putExtra("year", 2023);
                 startActivity(intent);
             }
         });
